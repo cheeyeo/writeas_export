@@ -11,9 +11,9 @@ Markdown Files.
 **TODO:**
 
   - Extract title & data
-  - Save to .md file with the title as the name.
-  - Save stylesheet.
-  
+  - Save to Markdown file with the title as the name.
+  - Save style-sheet.
+
 
 ## Installation
 
