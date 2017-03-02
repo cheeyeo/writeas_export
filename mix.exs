@@ -32,6 +32,7 @@ defmodule WriteasExport.Mixfile do
   defp deps do
     [
        {:httpoison, "~> 0.10.0"},
+       { :hackney, "1.6.1", override: true },
        {:poison, "~> 3.0"}
     ]
   end
