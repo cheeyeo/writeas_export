@@ -20,3 +20,35 @@ Markdown Files.
   - mix deps.get
   - mix escript.build
   - ./write_export beardyjay
+
+
+## Example write.as data structure
+
+```
+%{"code" => 200,
+  "data" => %{
+    "alias" => "beardyjay",
+    "description" => "Random Rants...",
+    "format" => "notebook",
+    "posts" => [],
+    "public" => false,
+    "style_sheet" => "",
+    "title" => "",
+    "total_posts" => "",
+    "views" => 113
+   }
+}
+```
+
+## Fix for ssl error
+
+Main notes on HTTPoison
+
+## Parsing JSON using Poison
+
+https://github.com/devinus/poison
+
+
+http://stackoverflow.com/questions/30855638/elixir-nested-json-parsing-to-structs
+
+
