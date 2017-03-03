@@ -10,9 +10,9 @@ Markdown Files.
 
 **TODO:**
 
-  - Extract title & data
-  - Save to Markdown file with the title as the name.
-  - Save style-sheet.
+  - Extract title & data (DONE)
+  - Save to Markdown file with the title as the name.(DONE)
+  - Save style-sheet. (FROM COLLECTION STRUCT???)
 
 
 ## Installation

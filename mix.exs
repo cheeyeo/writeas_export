@@ -7,7 +7,7 @@ defmodule WriteasExport.Mixfile do
      elixir: "~> 1.4",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
-     escript: [main_module: WriteasExport], #Added escript
+     escript: [main_module: WriteasExport.CLI], #Added escript
      deps: deps()]
   end
 
