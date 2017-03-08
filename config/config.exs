@@ -4,4 +4,6 @@ use Mix.Config
 
 config :writeas_export, api_url: "https://write.as/api"
 
+config :logger, compile_time_purge_level: :info
+
 # import_config "#{Mix.env}.exs"

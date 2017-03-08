@@ -12,4 +12,8 @@ defmodule CliTest do
   test "return collection name" do
     assert parse_args(["mycollection"]) == {"mycollection"}
   end
+
+  test "return path and a collection name" do
+    assert parse_args(["mycollection", "--path", "lib"]) == {"mycollection", "lib"}
+  end
 end

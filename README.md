@@ -7,19 +7,20 @@ Markdown Files.
 
 [Write.as API Docs](https://writeas.github.io/docs/#create-a-collection)
 
-
-**TODO:**
-
-  - Extract title & data (DONE)
-  - Save to Markdown file with the title as the name.(DONE)
-  - Save style-sheet. (FROM COLLECTION STRUCT???)
-
-
 ## Installation
 
   - mix deps.get
   - mix escript.build
   - ./write_export beardyjay
+  - ./write_export beardyjay --path <mydirectory>
+
+Posts are saved in the local directory with the name ```posts```.
+
+If a path is specified, it is saved under the ```posts``` directory in the specified path.
+
+## TODO:
+
+* More unit tests
 
 
 ## Example write.as data structure
@@ -39,16 +40,3 @@ Markdown Files.
    }
 }
 ```
-
-## Fix for ssl error
-
-Main notes on HTTPoison
-
-## Parsing JSON using Poison
-
-https://github.com/devinus/poison
-
-
-http://stackoverflow.com/questions/30855638/elixir-nested-json-parsing-to-structs
-
-
